@@ -1,0 +1,28 @@
+{
+  "name": "baseline",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "setup": "npx expo install expo@latest && npx expo install --fix",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "node test/run.mjs logic.test.js && node test/run.mjs smoke.jsx"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "expo": "~52.0.0",
+    "expo-haptics": "~14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "react": "18.3.1",
+    "react-native": "~0.76.0",
+    "react-native-safe-area-context": "^4.12.0",
+    "react-native-svg": "^15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.0",
+    "esbuild": "^0.24.0",
+    "react-dom": "18.3.1"
+  }
+}

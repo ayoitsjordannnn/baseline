@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Baseline",
+    "slug": "baseline",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0E172B"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.baseline.planner"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0E172B"
+      },
+      "package": "com.baseline.planner"
+    },
+    "icon": "./assets/icon.png"
+  }
+}
