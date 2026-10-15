@@ -8,7 +8,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "test": "node test/run.mjs logic.test.js && node test/run.mjs smoke.jsx"
+    "test": "node test/run.mjs logic.test.js && node test/run.mjs smoke.jsx",
+    "tunnel": "expo start --tunnel"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.23.1",
@@ -23,6 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.25.0",
     "esbuild": "^0.24.0",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "@expo/ngrok": "^4.1.0"
   }
 }

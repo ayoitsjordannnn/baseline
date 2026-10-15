@@ -21,7 +21,7 @@ You only do steps 1–2 once.
    ```
 
    `npm run setup` updates Baseline to the newest Expo version so it matches the Expo Go app on your phone. It can take a minute.
-6. A QR code appears. **iPhone:** open the Camera app and point it at the code. **Android:** scan it from inside Expo Go. Your phone and Mac need to be on the same Wi‑Fi. If it can't connect, stop with Ctrl + C and run `npx expo start --tunnel`.
+6. A QR code appears. **iPhone:** open the Camera app and point it at the code. **Android:** scan it from inside Expo Go. Your phone and Mac need to be on the same Wi‑Fi. If it says "request timed out", stop with Control + C and run `npm run tunnel` instead (it connects through the internet), then scan the new QR code.
 
 Edit any file and save: the app on your phone reloads by itself. Shake the phone to open the developer menu.
 
